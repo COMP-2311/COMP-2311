@@ -1,0 +1,41 @@
+
+
+body {
+    background: linear-gradient(45deg, red, blue, yellow, lime);
+    font-family: Comic Sans MS, cursive;
+    text-align: center;
+    animation: rainbow 5s infinite linear;
+}
+
+@keyframes rainbow {
+    0% { filter: hue-rotate(0deg); }
+    100% { filter: hue-rotate(360deg); }
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    text-shadow: 5px 5px black;
+    transform: rotate(-5deg);
+}
+
+h2 {
+    color: yellow;
+    font-size: 30px;
+    animation: bounce 1s infinite alternate;
+}
+
+p {
+    font-size: 22px;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+/* bouncing effect */
+@keyframes bounce {
+    from { transform: translateY(0); }
+    to { transform: translateY(-20px); }
+}

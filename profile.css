@@ -1,0 +1,24 @@
+body{
+    margin:0;
+}
+h1{
+    text-align: center;
+}
+main{
+    padding-left: 8rem;
+}
+.profile{
+    display:flex;
+    flex-direction: row;
+}
+.profileImage{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: rgb(196, 140, 196);
+    /* padding-top: 2rem; */
+}
+.userInfo{
+    margin:2rem;
+    font-size: 1.5rem;
+}
